@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>Home Page</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="frontend/assets/logo.png" alt="Logo" />
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search (⌘ + k)">
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Launches</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Advertise</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="subscribe">Subscribe</button>
+            <button class="sign-in">Sign in</button>
+        </div>
+    </nav>
+    <main>
+        <p class="one"><a href="www.producthunt.com">Home</a> > <a href="www.producthunt.com">Product</a> > VideoDubber -Fast Video Translator</p>
+        <img src="frontend/assets/imagee2.png" alt="">
+        <div class="feature-card">
+            <div class="content">
+                <h2 class="title">VideoDubber - Fast Video Translator</h2>
+                <p class="description">Translate videos in your own voice, globalize in a click!</p>
+            </div>
+            <div class="actions">
+                <button class="visit-button">Visit <span class="arrow"></span></button>
+                <button class="upvote-button">UPVOTE <span class="count">129</span></button>
+            </div>
+        </div>
+        <div class="feature-detail">
+        <div class="header">
+            <span class="offer"><i class="icon-gift"></i> 2 months free annually</span>
+            <span class="separator">•</span>
+            <span class="options">Free Options</span>
+            <div class="actions">
+                <a href="#" class="action">Discuss</a>
+                <a href="#" class="action">Collect</a>
+                <a href="#" class="action">Share</a>
+                <a href="#" class="action">Stats</a>
+            </div>
+        </div>
+        <p class="description">
+            Translate video in one click with AI to 150+ languages & accents in original voice. Prime features: 
+            1. 0.1 USD/min for premium video translation with voice cloning 
+            2. Unlimited Editing 
+            3. Exports MP4/SRT/MP3
+        </p>
+        <div class="tags">
+            <span class="tag">Launched in</span>
+            <span class="tag-label">Languages</span>
+            <span class="tag-label">Artificial Intelligence</span>
+            <span class="tag-label">Video</span>
+        </div>
+    </div>
+    <div class="slider">
+        <div class="slider-wrapper">
+            <div class="slide">
+                <img src="image1.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+                <img src="image2.jpg" alt="Image 2">
+            </div>
+            <div class="slide">
+                <img src="image3.jpg" alt="Image 3">
+            </div>
+        </div>
+        <button class="arrow left-arrow" onclick="prevSlide()">&#10094;</button>
+        <button class="arrow right-arrow" onclick="nextSlide()">&#10095;</button>
+    </div>
+    <div class="comment-section">
+        <div class="comment-box">
+            <img src="user-profile.jpg" alt="User Profile">
+            <input type="text" placeholder="What do you think?">
+            <button>Login to comment</button>
+        </div>
+        <div class="comment">
+            <div class="comment-header">
+                <img src="profile1.jpg" alt="Profile">
+                <span class="comment-author">Souvic Chakraborty</span>
+                <span class="comment-timestamp">Aug 6</span>
+            </div>
+            <div class="comment-body">
+                <p>Hey Product Hunters! 👋<br>
+                We're excited to launch VideoDubber.ai to the Product Hunt community!...</p>
+            </div>
+            <div class="comment-footer">
+                <button>Upvote (6)</button>
+                <button>Share</button>
+                <button>View 1 more reply</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <header class="header">
+            <h1>About this launch</h1>
+            <p>VideoDubber - Fast Video Translator was hunted by Souvic Chakraborty in SaaS, Artificial Intelligence, Video. Made by Souvic Chakraborty. Posted on August 6th, 2024.</p>
+        </header>
+        <section class="stats">
+            <div class="stat-item">
+                <h2>Upvotes</h2>
+                <p>164</p>
+            </div>
+            <div class="stat-item">
+                <h2>Comments</h2>
+                <p>12</p>
+            </div>
+            <div class="stat-item">
+                <h2>Day rank</h2>
+                <p>-</p>
+            </div>
+            <div class="stat-item">
+                <h2>Week rank</h2>
+                <p>-</p>
+            </div>
+        </section>
+        <section class="trending-launches">
+            <h2>Trending launches</h2>
+            <div class="launch-item">
+                <h3>Me.bot</h3>
+                <p>Turn your ideas into an AI life coach</p>
+            </div>
+            <div class="launch-item">
+                <h3>Upmetrics AI</h3>
+                <p>Business plan & financial forecast using AI</p>
+            </div>
+            <div class="launch-item">
+                <h3>Frontend AI</h3>
+                <p>Your UI generated from prompts or images</p>
+            </div>
+            <div class="launch-item">
+                <h3>Codei AI</h3>
+                <p>Land your dream software job</p>
+            </div>
+            <div class="launch-item">
+                <h3>LLM Beefer Upper</h3>
+                <p>Automate chain of thought with multi-agent prompt templates</p>
+            </div>
+            <div class="launch-item">
+                <h3>Rosebud</h3>
+                <p>Your therapist's favorite journal</p>
+            </div>
+            <div class="launch-item">
+                <h3>Lancey (YC S22)</h3>
+                <p>Build features your users want</p>
+            </div>
+            <div class="launch-item">
+                <h3>Minvo 2.0</h3>
+                <p>All-in-one AI video shorts platform for podcasts & more</p>
+            </div>
+            <div class="launch-item">
+                <h3>Delphi</h3>
+                <p>Scale 1-1 personalized video calls with your audience</p>
+            </div>
+            <div class="launch-item">
+                <h3>I'M SAFE</h3>
+                <p>Women's safety app for real-time security</p>
+            </div>
+        </section>
+    </div>
+    </main>
+    
+</body>
+</html>
